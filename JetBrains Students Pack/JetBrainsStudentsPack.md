@@ -1,6 +1,6 @@
 # Obtendo acesso ao JetBrains Student Pack
 
-O JetBrains Student Pack é um pacote de software gratuito oferecido pela JetBrains para estudantes. Ele fornece acesso a uma variedade de ferramentas e recursos úteis para estudantes de tecnologia. Aqui estão os passos simples para obter acesso ao pacote:
+O JetBrains Student Pack é um pacote de software gratuito oferecido pela JetBrains para estudantes. Ele fornece acesso a uma variedade de ferramentas e recursos úteis para estudantes de tecnologia, como IntelliJ IDEA, PyCharm, WebStorm, entre outras. Aqui estão os passos simples para obter acesso ao pacote:
 
 ## 1. Verifique se você é elegível
 
