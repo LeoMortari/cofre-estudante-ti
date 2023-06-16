@@ -10,7 +10,7 @@ Visite o site da [Autodesk](https://www.autodesk.com.br/education/edu-software/o
 
 ## 2. Crie uma conta
 
-Ao tentar obter algum produto do catálogo educacional, a página será redirecionada para um sistema de login, onde você deverá criar uma conta. O cadastro será dividido 2 steps, na primeira parte terá que informar seu país, função educacional, tipo de instituição e data de nascimento e já na segunda parte, informará seu nome, email e uma senha para o login.
+Ao tentar obter algum produto do catálogo educacional, a página será redirecionada para um sistema de login, onde você deverá criar uma conta. O cadastro será dividido em 2 steps, na primeira parte terá que informar seu país, função educacional, tipo de instituição e data de nascimento, e já na segunda parte, informará seu nome, email e uma senha para o login.
 
 ## 3. Verificação do Email e ativação de conta
 
@@ -18,8 +18,7 @@ Após salvar as informações do seu cadastro, o site enviará um link em seu em
 
 ## 4. Preenchimento de perfil educacional e confirmação de elegibilidade
 
-Ao fazer o login, você precisa completar seu perfil educacional. O site exigirá o nome da instituição em que está cursando, data de inscrição e previsão do término do curso.
-Obs: Caso o nome de sua instituição não esteja disponibilizada na lista, clique em "can't find your school" e insira o nome manualmente. A verificação e inserção da instituição na lista pode demorar até uma semana.
+Ao fazer o login, você precisa completar seu perfil educacional. O site exigirá o nome da instituição em que está cursando, data de inscrição e previsão do término do curso. Caso o nome de sua instituição não esteja disponibilizada na lista, clique em "can't find your school" e insira o nome manualmente. A verificação e inserção da instituição na lista pode demorar até uma semana.
 
 ## 5. Envio de documentos
 
