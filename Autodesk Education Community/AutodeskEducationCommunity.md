@@ -1,4 +1,4 @@
-# Guia definitivo de como obter o Autodesk Education Community para Estudatens
+# Guia definitivo de como obter o Autodesk Education Community para Estudantes
 
 ## Introdução
 
