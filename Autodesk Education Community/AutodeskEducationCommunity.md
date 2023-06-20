@@ -1,4 +1,4 @@
-# Guia definitivo de como obter o Autodesk Education Community para Estudantes
+# Obter Autodesk Education Community para Estudantes
 
 ## Introdução
 
@@ -22,7 +22,7 @@ Ao fazer o login, você precisa completar seu perfil educacional. O site exigir�
 
 ## 5. Envio de documentos
 
-Em alguns casos para a confirmação de elegibilidade, você terá que enviar alguns documentos que comprove que está matriculado na instituição, como: Carteirinha de Estudante, carta de confirmação emitida pela instiuição, etc. Você tem um prazo de 2 semanas para o envio desses documentos e pode demorar até 48 horas para verificação dos mesmos.
+Em alguns casos para a confirmação de elegibilidade, você terá que enviar alguns documentos que comprove que está matriculado na instituição, como: Carteirinha de Estudante, Carta de Confirmação de Matrícula emitida pela Instituição, etc. Você tem um prazo de 2 semanas para o envio desses documentos e pode demorar até 48 horas para verificação dos mesmos.
 
 ## 6. Conclusão
 
