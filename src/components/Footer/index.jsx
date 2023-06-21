@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import { Container, Typography } from "@mui/material";
-import { Facebook, Twitter, Instagram } from "@mui/icons-material";
+import { Container } from "@mui/material";
+import { GitHub } from "@mui/icons-material";
 
 const Footer = () => {
   return (
@@ -9,10 +9,10 @@ const Footer = () => {
       <Container>
         <FooterContent>
           <LogoContainer>
-            <Typography variant="h6">Logo</Typography>
+            <span>COFRE TI</span>
           </LogoContainer>
           <ColaboradoresContainer>
-            <Typography variant="h4">Colaboradores:</Typography>
+            <span>Colaboradores:</span>
             <ul>
               <li>Bruno Cardoso</li>
               <li>Gabriel Pierote</li>
@@ -26,13 +26,10 @@ const Footer = () => {
           </ColaboradoresContainer>
           <RedesSociaisContainer>
             <SocialIcon>
-              <Facebook />
-            </SocialIcon>
-            <SocialIcon>
-              <Twitter />
-            </SocialIcon>
-            <SocialIcon>
-              <Instagram />
+              <GitHub fontSize="large" />
+              <a href="https://github.com/LeoMortari/cofre-estudante-ti/tree/master">
+                cofre-estudante-ti
+              </a>
             </SocialIcon>
           </RedesSociaisContainer>
         </FooterContent>
@@ -65,13 +62,23 @@ const FooterContent = styled.div`
 `;
 
 const LogoContainer = styled.div`
-  flex: 1;
+  font-family: "Michroma", sans-serif;
+  flex-grow: 1;
+  font-size: 25px;
 `;
 
 const ColaboradoresContainer = styled.div`
   flex: 1;
   text-align: center;
   margin-bottom: 10px;
+
+  span {
+    font-size: 30px;
+  }
+
+  li {
+    font-size: 15px;
+  }
 
   @media (min-width: 600px) {
     flex: 2;
@@ -82,6 +89,13 @@ const RedesSociaisContainer = styled.div`
   flex: 1;
   display: flex;
   justify-content: flex-end;
+
+  a {
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
   @media (max-width: 600px) {
     flex-basis: 100%;

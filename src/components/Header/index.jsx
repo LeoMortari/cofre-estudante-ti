@@ -4,7 +4,6 @@ import {
   AppBar,
   Toolbar,
   IconButton,
-  Typography,
   Button,
   Menu,
   MenuItem,
@@ -26,14 +25,18 @@ const Header = () => {
     <StyledAppBar position="fixed">
       <StyledToolbar>
         <LogoContainer>
-          <Typography variant="h6">Logo</Typography>
+          <span>COFRE TI</span>
         </LogoContainer>
         <NavItemsContainer>
           <NavItem>
-            <Button color="inherit">Item 1</Button>
+            <Button color="inherit" size="large">
+              <Item>Faculdade</Item>
+            </Button>
           </NavItem>
           <NavItem>
-            <Button color="inherit">Item 2</Button>
+            <Button color="inherit">
+              <Item>Artigos</Item>
+            </Button>
           </NavItem>
         </NavItemsContainer>
         <MobileMenuButtonContainer>
@@ -41,6 +44,7 @@ const Header = () => {
             edge="end"
             color="inherit"
             aria-label="menu"
+            size="large"
             onClick={handleMobileMenuOpen}
           >
             <MenuIcon />
@@ -50,8 +54,12 @@ const Header = () => {
             open={Boolean(mobileMenuAnchor)}
             onClose={handleMobileMenuClose}
           >
-            <MenuItem onClick={handleMobileMenuClose}>Item 1</MenuItem>
-            <MenuItem onClick={handleMobileMenuClose}>Item 2</MenuItem>
+            <MenuItem onClick={handleMobileMenuClose}>
+              <Item>Faculdade</Item>
+            </MenuItem>
+            <MenuItem onClick={handleMobileMenuClose}>
+              <Item>Artigos</Item>
+            </MenuItem>
           </Menu>
         </MobileMenuButtonContainer>
       </StyledToolbar>
@@ -71,7 +79,9 @@ const StyledToolbar = styled(Toolbar)`
 `;
 
 const LogoContainer = styled.div`
+  font-family: "Michroma", sans-serif;
   flex-grow: 1;
+  font-size: 20px;
 `;
 
 const NavItemsContainer = styled.div`
@@ -83,6 +93,7 @@ const NavItemsContainer = styled.div`
 `;
 
 const NavItem = styled.div`
+  font-family: "Lato", sans-serif;
   margin-right: 10px;
 `;
 
@@ -91,6 +102,14 @@ const MobileMenuButtonContainer = styled.div`
 
   @media (min-width: 600px) {
     display: none;
+  }
+`;
+
+const Item = styled.span`
+  font-size: 20px;
+
+  &:hover {
+    color: #004b8f;
   }
 `;
 
