@@ -17,8 +17,43 @@ const Artigos = () => {
           <Right>
             <ul>
               <li>
+                <a href="https://github.com/LeoMortari/cofre-estudante-ti/blob/master/Adobe%20Creative%20Cloud/AdobeCreativeCloud.md">
+                  Adobe Creative Cloud
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/LeoMortari/cofre-estudante-ti/blob/master/Amazon%20Web%20Services%20(AWS)%20Educate/Amazon%20Web%20Services%20(AWS)%20Educate.md">
+                  AWS Educate
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/LeoMortari/cofre-estudante-ti/blob/master/Atlassian%20Classroom/AtlassianClassroom.md">
+                  Atlassian Classroom
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/LeoMortari/cofre-estudante-ti/blob/master/Autodesk%20Education%20Community/AutodeskEducationCommunity.md">
+                  AutoDesk Education
+                </a>
+              </li>
+              <li>
                 <a href="https://github.com/LeoMortari/cofre-estudante-ti/blob/master/GitHub%20Pro/githubPro.md">
                   GitHub Pro
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/LeoMortari/cofre-estudante-ti/blob/master/Heroku%20for%20Education/HerokuforEducation.md">
+                  Heroku Educate
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/LeoMortari/cofre-estudante-ti/blob/master/JetBrains%20Students%20Pack/JetBrainsStudentsPack.md">
+                  JetBrains Studant Pack
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/LeoMortari/cofre-estudante-ti/blob/master/Microsoft%20Imagine/microsoftImagine.md">
+                  Microsoft Imagine
                 </a>
               </li>
             </ul>
@@ -39,6 +74,7 @@ const Organize = styled.div`
     display: block;
     margin-top: 5rem;
     gap: 10px;
+    margin-left: -40px;
   }
 `;
 
@@ -96,7 +132,6 @@ const ArticleContainer = styled.article`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 `;
 
 export default Artigos;
