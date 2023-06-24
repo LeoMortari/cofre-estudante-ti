@@ -21,6 +21,11 @@ const Header = () => {
     setMobileMenuAnchor(null);
   };
 
+  const handleRedirect = (callback) => {
+    callback();
+    setMobileMenuAnchor(null);
+  };
+
   return (
     <StyledAppBar position="fixed">
       <StyledToolbar>
@@ -29,12 +34,17 @@ const Header = () => {
         </LogoContainer>
         <NavItemsContainer>
           <NavItem>
-            <Button color="inherit" size="large">
+            <Button
+              color="inherit"
+              size="large"
+              href="https://www.up.edu.br/"
+              target="_blank"
+            >
               <Item>Faculdade</Item>
             </Button>
           </NavItem>
           <NavItem>
-            <Button color="inherit">
+            <Button color="inherit" href="#artigos">
               <Item>Artigos</Item>
             </Button>
           </NavItem>
@@ -54,10 +64,18 @@ const Header = () => {
             open={Boolean(mobileMenuAnchor)}
             onClose={handleMobileMenuClose}
           >
-            <MenuItem onClick={handleMobileMenuClose}>
+            <MenuItem
+              onClick={() =>
+                handleRedirect(() => window.open("https://www.up.edu.br/"))
+              }
+            >
               <Item>Faculdade</Item>
             </MenuItem>
-            <MenuItem onClick={handleMobileMenuClose}>
+            <MenuItem
+              onClick={() =>
+                handleRedirect(() => (window.location.hash = "#artigos"))
+              }
+            >
               <Item>Artigos</Item>
             </MenuItem>
           </Menu>
